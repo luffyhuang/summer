@@ -12,6 +12,17 @@
     min-height: 600px;
 }
 
+
+.footer {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    background-color:#6b0509;
+
+}
+
+
 .logo-text {
     display: block;
     position: absolute;
@@ -26,123 +37,11 @@
 }
 
 
-.intro {
-    width: 800px;
-    margin: 0 auto;
-    padding-bottom: 60px;
-}
-
-.banner {
-    position: absolute;
-    top: 300px;
-    left: 150px;
-
-    width: 700px;
-    color: #fff;
-}
-
-
-
-
-
-
-
-
-
-.footer {
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    color: #fff;
-    background-color: #6b0509;
-
-}
-
-.more-box {
-    position: relative;
-    padding: 80px;
-    height: 400px;
-
-    background-image: url(./images/bg_02.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-.more-list {
-    background-color: darkkhaki;
-}
-
-.more-item {
-    box-sizing: border-box;
-
-    width: 33.33%;
-    height: 360px;
-    float: left;
-
-    padding: 20px;
-}
-
-.more-info-box {
-
-    height: 100%;
-    color: #2A2A2A;
-}
-
-.more-info {
-    padding-top: 40px;
-    width: 300px;
-    margin: 0 auto;
-}
-
-.more-name {
-    font-size: 36px;
-    line-height: 2;
-    color: #6B0509;
-}
-
-.more-intro {
-
-
-    line-height: 1.4;
-    font-size: 15px;
-    text-align: justify;
-}
-
-.more-more {
-    display: block;
-    height: 32px;
-
-    font-style: italic;
-    margin-top: 20px;
-    font-size: 16px;
-    line-height: 32px;
-
-    color: #2A2A2A;
-    width: 120px;
-
-    border-bottom: 2px solid #2a2a2a;
-}
-
-.slide {
-    position: relative;
-    height: 100px;
-}
-
-.arrow-down {
-    width: 30px;
-}
-
-
 /************ 导航***********************************/
 .nav-area {
     background-color: #6b0509;
     height: 100px;
     width: 100%;
-}
-
-
-ul {
-    list-style: none;
 }
 
 .nav {
@@ -174,26 +73,5 @@ ul {
     height: 36px;
 }
 
-.nav a:hover {
-    color: #fec523;
-}
 
-
-.nav dd ul {
-    display: none;
-    float: left;
-    background-color: #6B0509;
-    z-index: 888;
-}
-
-.nav dd li a {
- 
-    padding-left: 4px;
-    line-height: 36px;
-    font-size: 13px;
-}
-
-.nav dd:hover ul {
-    display: block;
-}
 /************ 导航***********************************/
