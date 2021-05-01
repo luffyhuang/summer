@@ -47,10 +47,11 @@ table {
 	border-spacing: 0;
 }
 *{
-    box-sizing: content-box;
+    box-sizing:border-box;
 }
 a {
     text-decoration: none;
+	
 	
 
     
